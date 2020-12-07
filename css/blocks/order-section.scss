@@ -1,0 +1,18 @@
+.order-section {
+  position: relative;
+  background: url("../images/decor/order-bg.png") center no-repeat;
+
+  &:before {
+    content: url("../images/decor/blue-berry.png");
+    position: absolute;
+    bottom: 69px;
+    left: 2%;
+  }
+
+  &:after {
+    content: url("../images/decor/leaf-3.png");
+    position: absolute;
+    bottom: 58px;
+    right: 2%;
+  }
+}

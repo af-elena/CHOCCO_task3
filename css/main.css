@@ -398,6 +398,9 @@ img {
 .interactive-avatar--active {
   border-color: #365A49;
 }
+.interactive-avatar:hover {
+  border-color: #365A49;
+}
 
 .interactive-avatar-link {
   position: absolute;
@@ -468,6 +471,9 @@ img {
 .form__row {
   display: flex;
   margin-bottom: 14px;
+}
+.form__row:last-child {
+  margin-bottom: 0;
 }
 
 .form__block {
@@ -555,6 +561,9 @@ img {
 
 .fixed-menu__item {
   margin-bottom: 7px;
+}
+.fixed-menu__item:last-child {
+  margin-bottom: 0;
 }
 .fixed-menu__item--active .fixed-menu__link {
   border-color: #fff;

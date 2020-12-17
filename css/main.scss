@@ -1,21 +1,32 @@
 $containerWidth: 940px;
 $baseFontSize: 18px;
 
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+
 $blue: #61c4d9;
 $darkGreen: #0b4d3c;
 
 $z-fixed-menu: 100;
 
-@import "./normalize.css";
+@import "media";
 
+@import "./normalize.css";
 
 
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
 @import "layout";
 
+
+
 //blocks
 @import "blocks/hero";
 @import "blocks/header";
+@import "blocks/menu";
+@import "blocks/phone-number";
+@import "blocks/humburger";
 @import "blocks/features";
 @import "blocks/feature";
 @import "blocks/button";
@@ -33,4 +44,5 @@ $z-fixed-menu: 100;
 @import "blocks/radio";
 @import "blocks/map";
 @import "blocks/footer";
+@import "blocks/socials";
 @import "blocks/fixed-menu";

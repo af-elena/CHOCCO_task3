@@ -1,0 +1,19 @@
+.humburger {
+  width: 26px;
+  height: 24px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+
+  @include tablets {
+    display: inline-flex;
+  }
+}
+
+.humburger__plank {
+  display: block;
+  background: #FFFFFF;
+  height: 5px;
+  border-radius: 11px;
+}

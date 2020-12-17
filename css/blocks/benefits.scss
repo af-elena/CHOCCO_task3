@@ -10,9 +10,13 @@
   &:before {
     content: url("../images/decor/shapes.png");
     position: absolute;
-    top: 30px;
+    top: rem(30px);
     right: 0;
     transform: translateX(50%);
+
+    @include tablets {
+      display: none;
+    }
   }
 
   &:first-child {

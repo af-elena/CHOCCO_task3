@@ -2,10 +2,19 @@
   position: relative;
   background: url("../images/decor/design_leaf.png") left top 57% no-repeat;
 
+  @include tablets {
+    background-position: left -2% top 2%;
+  }
+
   &:before {
     content: url("../images/decor/cereal-bar.png");
     position: absolute;
-    bottom: -80px;
+    bottom: rem(-80px);
     left: 0;
+
+    @include tablets {
+      content: url("../images/decor/cereal-bar.png");
+      bottom: rem(-150px);
+    }
   }
 }

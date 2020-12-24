@@ -8,6 +8,10 @@
 .fixed-menu__item {
   margin-bottom: rem(7px);
 
+  @include tablets {
+    display: none;
+  }
+
   &:last-child {
     margin-bottom: 0;
   }

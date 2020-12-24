@@ -6,6 +6,10 @@
     background-position: left -2% top 2%;
   }
 
+  @include phones {
+    background: none;
+  }
+
   &:before {
     content: url("../images/decor/cereal-bar.png");
     position: absolute;
@@ -16,5 +20,10 @@
       content: url("../images/decor/cereal-bar.png");
       bottom: rem(-150px);
     }
+
+    @include phones {
+      display: none;
+    }
+
   }
 }

@@ -10,3 +10,17 @@
     margin-right: 0;
   }
 }
+
+.socials__icon-symbol {
+  width: rem(20px);
+  height: rem(20px);
+  display: flex;
+  align-items: center;
+  fill: #B3B3B3;
+
+  &:hover {
+    fill: #292929;
+    transition: 0.3s;
+  }
+}
+

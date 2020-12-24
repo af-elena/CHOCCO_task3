@@ -1,10 +1,13 @@
 .humburger {
-  width: 26px;
-  height: 24px;
+  width: rem(26px);
+  height: rem(24px);
   display: inline-flex;
   flex-direction: column;
   justify-content: space-between;
   display: none;
+  position: fixed;
+  top: 2.5%;
+  right: 3%;
 
   @include tablets {
     display: inline-flex;
@@ -15,5 +18,5 @@
   display: block;
   background: #FFFFFF;
   height: 5px;
-  border-radius: 11px;
+  border-radius: rem(11px);
 }

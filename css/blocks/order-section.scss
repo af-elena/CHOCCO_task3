@@ -7,12 +7,20 @@
     position: absolute;
     bottom: rem(69px);
     left: 2%;
+
+    @include tablets {
+      display: none;
+    }
   }
 
-    &:after {
+  &:after {
     content: url("../images/decor/leaf-3.png");
     position: absolute;
     bottom: rem(58px);
     right: 2%;
+
+    @include tablets {
+      display: none;
+    }
   }
 }

@@ -9,10 +9,18 @@
   flex-shrink: 0;
 }
 
-.phone-number__icon-elem {
+.phone-number__icon-symbol {
   width: rem(12px);
   height: rem(12px);
   margin-right: rem(6px);
+  fill: #fff;
+}
+
+.phone-number__icon-footer {
+  width: rem(12px);
+  height: rem(12px);
+  margin-right: rem(6px);
+  fill: #497870;
 }
 
 .phone-number__text {

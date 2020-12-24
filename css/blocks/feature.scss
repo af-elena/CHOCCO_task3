@@ -3,7 +3,13 @@
 }
 
 .feature__icon {
-  width: rem(45px);
+  margin-right: rem(6px);
+}
+
+.feature__icon-symbol {
+  width: rem(44px);
+  height: rem(44px);
+  fill: #FFFFFF;
   margin-right: rem(6px);
 }
 

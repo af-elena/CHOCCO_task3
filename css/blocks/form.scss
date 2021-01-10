@@ -15,12 +15,14 @@
   flex: 1;
   margin-right: rem(26px);
 
+
   &:last-child {
     margin-right: 0;
   }
 
   @include tablets {
     margin-right: 0;
+    margin-bottom: rem(14px);
   }
 }
 
@@ -31,9 +33,7 @@
   &:last-child {
     margin-bottom: 0;
 
-    @include tablets {
-      margin-bottom: rem(14px);
-    }
+
   }
 }
 

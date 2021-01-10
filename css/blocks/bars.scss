@@ -1,0 +1,38 @@
+.bars {
+  background: #F8FAF9;
+  position: relative;
+
+  &:before {
+    content: url("../images/decor/cereal-bar.png");
+    position: absolute;
+    bottom: rem(870px);
+    left: 0;
+
+    @include tablets {
+      content: url("../images/decor/cereal-bar.png");
+      bottom: rem(900px);
+    }
+
+    @include phones {
+      display: none;
+    }
+
+  }
+
+  &:after {
+    content: url("../images/decor/blueberries_leaf.png");
+    position: absolute;
+    bottom: rem(-210px);
+    right: 0.05%;
+  }
+
+ 
+}
+
+.bars__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+}

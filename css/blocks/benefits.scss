@@ -13,7 +13,7 @@
 
   @include phones {
     padding: 0;
-    margin-bottom: rem(43px);
+    
   }
 
   &:before {
@@ -26,7 +26,6 @@
     @include tablets {
       display: none;
     }
-
   }
 
   &:first-child {

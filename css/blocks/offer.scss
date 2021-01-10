@@ -1,0 +1,14 @@
+.offer {
+  display: flex;
+  align-items: center;
+
+  @include tablets {
+    justify-content: center;
+  }
+}
+
+.offer__price {
+  font-size: rem(60px);
+  color: #151515;
+  margin-right: rem(22px);
+}

@@ -1,0 +1,32 @@
+.composition {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  left: -9999px;
+  width: rem(274px);
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: rem(6px);
+  transition: opacity 0.3s;
+  
+  
+}
+
+.composition__item {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #000000;
+ }
+
+.composition__icon-symbol {
+  width: rem(26px);
+  height: rem(30px);
+}
+
+.composition__text, .composition__text-weight {
+  font-size: rem(16px);
+  font-weight: 500;
+}
+
